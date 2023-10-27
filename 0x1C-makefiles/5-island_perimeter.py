@@ -14,4 +14,4 @@ for h in range(height):
                 edges += 1
             if ( h > 0 and grid[h - 1][w] == 1):
                 edges += 1
-return size * 4 - edges * 2
+    return size * 4 - edges * 2
